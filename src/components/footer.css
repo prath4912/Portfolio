@@ -1,0 +1,33 @@
+.df1{
+    background: #000;
+    display: flex;
+    justify-content: space-around ;
+    height: 200px;
+    align-items: center;
+}
+
+.df1 li{
+    list-style: none;
+}
+
+.df1 li a{
+    color: white;
+    text-decoration: none;
+}
+.fp12{
+    /* width : 100vw ; */
+    height: 30px;
+    background: #535353;
+    color: white;
+}
+
+.df2{
+    display: flex ;
+
+}
+.df2 img{
+    margin:10px;
+}
+.df2 li{
+    margin: 10px;
+}
