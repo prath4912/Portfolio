@@ -7,9 +7,10 @@
     flex-direction: row;
     justify-content: space-between;
     padding-top: 12vh;
+    height: 100vh ;
 }
 .dh2 img{
-    height: 88vh;
+    height: 85vh;
 }
 
 .dh2 .dh3{
@@ -22,5 +23,16 @@
     background: #e6e6e6;
     /* position: absolute; */
     top: 0;
+
+}
+
+.dh5{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background: white;
+    width: 40vw;
+    height: 85.5vh;
+    margin: 9px;
 
 }
