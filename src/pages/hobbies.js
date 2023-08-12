@@ -6,19 +6,21 @@ import c3 from "./p6.jpg"
 
 export default function hobbies() {
   return (
-    <div id='hobbies'>
-        <h1>Hobbies</h1>
-    <div className='container  mb-3 d-flex flex-row justify-content-around'>
+    <div id='hobbies' className='pt-12 '>
+    <div  className=' container bg-dark p-3 rounded-3 pb-5'>
+        <h1 className='text-light text-start ms-3  my-4 '>Hobbies</h1>
+    <div className='  mb-3 d-flex flex-row justify-content-around'>
       {hob.map((ha)=>{
         return (
-            <div className="cri1  card" style={{width: "18rem"}}>
+            <div className="  card" style={{width: "18rem"}}>
     <img src={ha.link} className="card-img-top" alt="..."/>
-    <div className="cri1 bg-dark-subtle bg-gradient card-body">
-    <h5 className=" card-title">{ha.title}</h5>
+    <div className=" bg-dark-subtle bg-gradient card-body">
+    <h5 className=" card-title fw-bold">{ha.title}</h5>
   </div>
 </div>
         );
       })}
+    </div>
     </div>
     </div>
   )
@@ -27,11 +29,11 @@ export default function hobbies() {
 
 const hob =[
     {
-        title : "cricket" ,
+        title : "Cricket" ,
         link : c1 
     },
     {
-        title : "Treking" ,
+        title : "Travling" ,
         link : c2
     },
     {

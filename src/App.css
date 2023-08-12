@@ -9,7 +9,7 @@
 .dh1 {
   display:flex ;
   /* flex-direction: row; */
-  background-color: rgb(0 , 0 ,0 , 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   background-blend-mode: lighten;
   justify-content: space-around;
   position:fixed;
@@ -37,6 +37,24 @@
 /* .dh1{
   background: #000;
 } */
+
+
+
+/* BackGround Header */
+.bd1{
+  background-image: url("./bg1.jpg");
+  background-size: cover;
+  height: 73vh;
+  padding-top: 30vh;
+}
+
+.bd1 h1 {
+  font-size:3rem;
+}
+
+.pt-12{
+  padding-top: 12.4vh;
+}
 
 ::-webkit-scrollbar {
   width: 5px;

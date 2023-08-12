@@ -1,32 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import i1 from './cpp.png'
 import './skills.css'
-export default function skills() {
+export default function Skills() {
+
+
+
+  const [skills , setskills] = useState(obj) ;
+
+
   return (
-    <div className='ds2'  id='skills'>
-        <h1>Tecnical Skills</h1>
-        <div className='ds1 container text-start py-3'>
-          <div className='row'>
-      <div className=' ds3 col-3'><img className='m-2' src={i1} alt="" width="45px" />CPP  </div>
-      <div className=' ds3 col-3'><img className='m-2' src={i1} alt="" width="45px" />Java</div>
-      <div className=' ds3 col-3'><img className='m-2' src={i1} alt="" width="45px" />JavaScript</div>
-      <div className=' ds3 col-3'><img className='m-2' src={i1} alt="" width="45px" />Python</div>
+    <div className='ds2 pt-12'  id='skills'>
+        <div className='ds1 container bg-dark text-start py-3 rounded-3 pb-5'>
+        <h1 className='text-light ms-4 mb-3 my-4 '>Tecnical Skills</h1>
 
-      <div className=' ds3 col-3'><img className='m-2' src={i1} alt="" width="45px" />NodeJS</div>
-      <div className=' ds3 col-3'><img className='m-2' src={i1} alt="" width="45px" />ExpressJS</div>
-      <div className=' ds3 col-3'><img className='m-2' src={i1} alt="" width="45px" />MongoDB</div>
-      <div className=' ds3 col-3'><img className='m-2' src={i1} alt="" width="45px" />MySql</div>
+          <div className='row text-light'>
+            {
+              skills.map((item)=>{
+                return       <div className=' ds3 col-3'><img className='m-2' src={item.img} alt="" width="45px" />{item.title}</div>
 
-      <div className=' ds3 col-3'><img className='m-2' src={i1} alt="" width="45px" />HTML5</div>
-      <div className=' ds3 col-3'><img className='m-2' src={i1} alt="" width="45px" />CSS</div>
-      <div className=' ds3 col-3'><img className='m-2' src={i1} alt="" width="45px" />C</div>
-      <div className=' ds3 col-3'><img className='m-2' src={i1} alt="" width="45px" />Bootstap</div>
-
+              })
+            }
      
-      <div className=' ds3 col-3'><img className='m-2' src={i1} alt="" width="45px" />ReactJS</div>
-      <div className=' ds3 col-3'><img className='m-2' src={i1} alt="" width="45px" />Thunder Client</div>
-      <div className=' ds3 col-3'><img className='m-2' src={i1} alt="" width="45px" />Postman</div>
-      <div className=' ds3 col-3'><img className='m-2' src={i1} alt="" width="45px" />Redux</div>
       </div>
       </div>
       
@@ -34,3 +28,62 @@ export default function skills() {
     </div>
   )
 }
+
+
+const obj = [{
+  title : "C++", 
+  img : i1
+},
+{
+  title : "ReactJS" ,
+  img : i1
+},
+{
+  title : "HTML" ,
+  img : i1
+},{
+  title : "CSS" ,
+  img : i1
+},{
+  title : "BOOTSTRAP" ,
+  img : i1
+},{
+  title : "TailWind CSS" ,
+  img : i1
+},{
+  title : "JavaScript" ,
+  img : i1
+},{
+  title : "TypeScript" ,
+  img : i1
+},{
+  title : "AWS" ,
+  img : i1
+},{
+  title : "FireBase" ,
+  img : i1
+},{
+  title : "NodeJS" ,
+  img : i1
+},{
+  title : "MongoDB" ,
+  img : i1
+},
+{
+  title : "ExpreeJS" ,
+  img : i1
+},{
+  title : "Redux" ,
+  img : i1
+},{
+  title : "Postman" ,
+  img : i1
+},{
+  title : "Mysql" ,
+  img : i1
+}
+// ,{
+//   title : "Java" ,
+//   img : i1
+// },
+] ;

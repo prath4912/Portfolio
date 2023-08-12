@@ -1,10 +1,10 @@
 
 
 .dh1 a{
-    margin: 15px;
     text-decoration: none;
     color:white ;
-    font-size:x-large;
+    font-size:larger;
+    margin: 0 30px;
 }
 
 .dh21{
@@ -12,8 +12,8 @@
 }
 
 .dh1 a:hover{
-    font-size: larger;
-    font-weight: bold;
+    font-size: x-large;
+    font-weight: 600;
     color: white;
     transition:200ms;   
 }
