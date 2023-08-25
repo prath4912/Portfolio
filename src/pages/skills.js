@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import i1 from './cpp.png'
-import './skills.css'
+import i1 from '../images/cpp.png'
 export default function Skills() {
 
 
@@ -9,14 +8,14 @@ export default function Skills() {
 
 
   return (
-    <div className='ds2 pt-12'  id='skills'>
-        <div className='ds1 container bg-dark text-start py-3 rounded-3 pb-5'>
+    <div className=' pt-12'  id='skills'>
+        <div className=' container bg-dark text-start py-3 rounded-3 pb-5'>
         <h1 className='text-light ms-4 mb-3 my-4 '>Tecnical Skills</h1>
 
-          <div className='row text-light'>
+          <div className='grd1 text-light '>
             {
               skills.map((item)=>{
-                return       <div className=' ds3 col-3'><img className='m-2' src={item.img} alt="" width="45px" />{item.title}</div>
+                return       <div className=' my-2 d-flex align-items-center '><img className='iw1 m-2' src={item.img} alt=""  />{item.title}</div>
 
               })
             }

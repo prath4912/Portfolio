@@ -7,21 +7,21 @@ export default function Projects() {
 
   const obj =[ {
     title : "Ecommerce Website" ,
-    Descrption : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum tempora explicabo soluta quisquam velit quod, facilis unde recusandae minus maiores nulla culpa eum inventore quidem consequuntur rem modi? Corporis, numquam nulla. Hic, asperiores ut! Dolorem, pariatur beatae autem aperiam omnis neque blanditiis consequuntur cum officiis incidunt numquam exercitationem ea amet.." ,
+    Descrption : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum tempora explicabo soluta quisquam velit quod, facilis unde recusandae minus maiores nulla culpa eum inventore quidem consequuntur rem modi? Corporis, num." ,
     Repo_Link : "https://github.com/Prathmesh-Pawar/Organic_Bananas" ,
     Url : "https://prathmesh-pawar.github.io/Portfolio/" ,
     img : pj1
   },
   {
     title : "Bailgada Website" ,
-    Descrption : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum tempora explicabo soluta quisquam velit quod, facilis unde recusandae minus maiores nulla culpa eum inventore quidem consequuntur rem modi? Corporis, numquam nulla. Hic, asperiores ut! Dolorem, pariatur beatae autem aperiam omnis neque blanditiis consequuntur cum officiis incidunt numquam exercitationem ea amet.." ,
+    Descrption : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum tempora explicabo soluta quisquam velit quod, facilis unde recusandae minus maiores nulla culpa eum inventore quidem consequuntur rem mo" ,
     Repo_Link : "https://github.com/Prathmesh-Pawar/Organic_Bananas" ,
     Url : "https://prathmesh-pawar.github.io/Portfolio/" ,
     img : pj1
   },
   {
     title : "Portfolio" ,
-    Descrption : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum tempora explicabo soluta quisquam velit quod, facilis unde recusandae minus maiores nulla culpa eum inventore quidem consequuntur rem modi? Corporis, numquam nulla. Hic, asperiores ut! Dolorem, pariatur beatae autem aperiam omnis neque blanditiis consequuntur cum officiis incidunt numquam exercitationem ea amet.." ,
+    Descrption : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum tempora explicabo soluta quisquam velit quod, facilis unde recusandae minus maiores nulla culpa eum inventore quidem consequuntur rem modi? Corporis, num." ,
     Repo_Link : "https://github.com/Prathmesh-Pawar/Organic_Bananas" ,
     Url : "https://prathmesh-pawar.github.io/Portfolio/" ,
     img : pj1
@@ -31,7 +31,7 @@ export default function Projects() {
 
   return (
     <div className='pt-12' id='projects'>
-    <div className=' container bg-dark text-light  p-3 rounded-3 px-5 '>
+    <div className=' container bg-dark text-light  p-3 rounded-3   pp1'>
     <div  className=' '>
     <h1 className='text-start ms-2 my-4' >Projects</h1>
     <div className='d-flex flex-column justify-content-center

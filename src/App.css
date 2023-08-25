@@ -25,14 +25,7 @@
   box-shadow: 0px 0px 5px 2px rgb(137, 137, 137);
 }
 
-@media (max-width: 700px) {
 
-  .dh1{
-    background: #000;
-    color: blue;
-    /* display: none; */
-  }
-}
 
 /* .dh1{
   background: #000;
@@ -42,9 +35,9 @@
 
 /* BackGround Header */
 .bd1{
-  background-image: url("./bg1.jpg");
+  background-image: url("./images/bg1.jpg");
   background-size: cover;
-  height: 73vh;
+  height: 100vh;
   padding-top: 30vh;
 }
 
@@ -69,4 +62,142 @@
 
 ::-webkit-scrollbar-thumb:hover{
   background: #5e5e5e;
+}
+
+.dh1 a{
+  text-decoration: none;
+  color:white ;
+  font-size:larger;
+  margin: 0 30px;
+}
+.pp1{
+  padding: 0 3rem;
+}
+
+.dh2{
+
+  display: flex;
+  flex-direction: row ;
+  justify-content: space-between;
+  /* justify-content: center; */
+  align-items: center;
+}
+.tc{
+  text-align: start;
+}
+
+.p5{
+  padding: 2rem;
+}
+.dh5{
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  width: 30vw;
+  height: 55vh;
+  margin: 9px;
+}
+.dh5 img {
+  width: 250px;
+}
+.bsm{
+  padding: 2px 12px;
+}
+.p51{
+  padding: 3rem;
+}
+.pim{
+  min-width: 185px;
+}
+.pim img{
+  min-width: 185px;
+}
+.iw1{
+  width: 45px;
+}
+
+/* Skills */
+.grd1{
+  display: grid ;
+  grid-template-columns: repeat(4 , 1fr);
+  justify-items: start;
+  align-items: center;
+}
+.hw1{
+  width: 100%;
+}
+@media(max-width : 768px)
+{
+ 
+  .dh1 a{
+    margin: 0 15px;
+}
+.pp1{
+  padding: 0 200px;
+}
+.dh2{
+
+  flex-direction: column-reverse ;
+  justify-content: space-between;
+}
+
+.tc{
+  text-align: center;
+  padding-top:  15px;
+}
+.bd1{
+  background-size: cover;
+  height: 80vh;
+  padding-top: 30vh;
+}
+.dh5{
+  height: 40vh;
+}
+.grd1{
+  display: grid ;
+  grid-template-columns: repeat(2 , 1fr);
+  justify-items:start;
+  align-items: center;
+}
+
+}
+
+
+
+@media(max-width : 430px)
+{
+  .pt-12{
+    padding-top: 5.4vh;
+  }
+  .dh1 a{
+    display: none;
+  }
+
+  .pp1{
+    padding: 0;
+  }
+  .dh5{
+    height: 30vh;
+  }
+  
+  .dh5 img {
+    width: 200px;
+  }
+
+  .bsm{
+    padding: 0 5px;
+  }
+
+  .p51{
+    padding: 0;
+  }
+  .bd1 h1 {
+    font-size:2rem;
+  }
+  .dh1{
+    height: 5.4vh;
+  }
+  .iw1{
+    width: 30px;
+  }
 }

@@ -2,24 +2,15 @@
     font-size: x-large;
 }
 
-.dh2{
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
 .par{
     font-size: 1.1rem;
     font-weight:450;
 }
-.dh5{
-    display: flex;
-    justify-content: center;
-    align-items: center ;
-    /* background: white; */
-    width: 30vw;
-    height: 55vh;
-    margin: 9px;
 
+
+.ch1{
+    height: 200px;
+    width: 200px;
 }
