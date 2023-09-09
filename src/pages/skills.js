@@ -1,5 +1,26 @@
 import React, { useState } from 'react'
 import i1 from '../images/cpp.png'
+import reacti from "../images/react.png" ;
+import html from "../images/html.png" ;
+import css from "../images/css.png" ;
+import bootstrap from "../images/bootstrap.png" ;
+import tailwind from "../images/tailwind.png" ;
+import javas from "../images/javas.png" ;
+import types from "../images/types.png" ;
+import aws from "../images/aws.png" ;
+
+import firebase from "../images/firebase.png" ;
+
+import node from "../images/node.png" ;
+
+import mongo from "../images/mongo.png" ;
+import expressjs from "../images/expressjs.png" ;
+import redux from "../images/redux.png" ;
+import postman from "../images/postman.svg" ;
+import mysql from "../images/mysql.png" ;
+
+
+
 export default function Skills() {
 
 
@@ -12,7 +33,7 @@ export default function Skills() {
         <div className=' container bg-dark text-start py-3 rounded-3 pb-5'>
         <h1 className='text-light ms-4 mb-3 my-4 '>Tecnical Skills</h1>
 
-          <div className='grd1 text-light '>
+          <div className='grd1 text-light mx-1 '>
             {
               skills.map((item)=>{
                 return       <div className=' my-2 d-flex align-items-center '><img className='iw1 m-2' src={item.img} alt=""  />{item.title}</div>
@@ -35,51 +56,51 @@ const obj = [{
 },
 {
   title : "ReactJS" ,
-  img : i1
+  img : reacti
 },
 {
   title : "HTML" ,
-  img : i1
+  img : html
 },{
   title : "CSS" ,
-  img : i1
+  img : css
 },{
   title : "BOOTSTRAP" ,
-  img : i1
+  img : bootstrap
 },{
   title : "TailWind CSS" ,
-  img : i1
+  img : tailwind
 },{
   title : "JavaScript" ,
-  img : i1
+  img : javas
 },{
   title : "TypeScript" ,
-  img : i1
+  img : types
 },{
   title : "AWS" ,
-  img : i1
+  img : aws
 },{
   title : "FireBase" ,
-  img : i1
+  img : firebase
 },{
   title : "NodeJS" ,
-  img : i1
+  img : node
 },{
   title : "MongoDB" ,
-  img : i1
+  img : mongo
 },
 {
   title : "ExpreeJS" ,
-  img : i1
+  img : expressjs
 },{
   title : "Redux" ,
-  img : i1
+  img : redux
 },{
   title : "Postman" ,
-  img : i1
+  img : postman
 },{
   title : "Mysql" ,
-  img : i1
+  img : mysql
 }
 // ,{
 //   title : "Java" ,

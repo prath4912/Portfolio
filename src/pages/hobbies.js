@@ -12,7 +12,7 @@ export default function hobbies() {
     <div className='  mb-3 d-flex flex-row flex-wrap justify-content-around'>
       {hob.map((ha)=>{
         return (
-            <div className="my-2 card" style={{width: "18rem"}}>
+            <div className="my-3 card" style={{width: "18rem"}}>
     <img src={ha.link} className="card-img-top" alt="..."/>
     <div className=" bg-dark-subtle bg-gradient card-body">
     <h5 className=" card-title fw-bold">{ha.title}</h5>

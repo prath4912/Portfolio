@@ -15,7 +15,6 @@
   position:fixed;
   width: 100vw;
   top: 0;
-  height: 12vh;
   align-items: center;
   z-index: 1;
   backdrop-filter: blur(4px);
@@ -169,7 +168,7 @@
   .pt-12{
     padding-top: 5.4vh;
   }
-  .dh1 a{
+  .dh1 .a1{
     display: none;
   }
 
@@ -185,7 +184,7 @@
   }
 
   .bsm{
-    padding: 0 5px;
+    padding: 4px 8px;
   }
 
   .p51{
