@@ -4,21 +4,29 @@ import "./h1.css";
 export default function Header() {
   const [sham, setsham] = useState(false);
   const[temp , settemp] = useState(false) ;
+  const [hn , sethn]=useState("12vh") ;
 
   const [hl , sethl] = useState("12vh") ;
-  const [hn , sethn]=useState("12vh") ;
+
+
   function closeMobileNavOnResize() {
+   
+    if(window.innerWidth < 430)
+  {
+    sethn("8vh")
+    sethl("8vh") ;
+
+  }
+
     if (window.innerWidth < 768) {
       setsham(true);
     } else {
       setsham(false);
     }
 
-    if(window.innerWidth < 430)
-    {
-      sethn("8vh")
-    }
+
   }
+
   window.onresize = closeMobileNavOnResize;
 
 const tog = ()=>{
@@ -38,6 +46,7 @@ const tfal = ()=>{
 }
 
 useEffect(()=>{
+  
     closeMobileNavOnResize() ;
 } , [])
 
