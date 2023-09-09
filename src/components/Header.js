@@ -52,7 +52,7 @@ useEffect(()=>{
 
   return (
     <>
-      {sham == false ? (
+      {sham === false ? (
         <div className="dh1 " style={{height : "12vh"}}>
 
         <div className="container d-flex justify-content-center" >
