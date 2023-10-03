@@ -8,7 +8,7 @@ export default function project(props) {
       <div className="shadow card w-100 mb-4 mxl" style={{}}>
         <div className="row g-0">
           <div class="pim col-md-2 ">
-            <img src={item.img} class="img-fluid rounded-start" alt="..." />
+            <img src={item.img} className="img-fluid rounded-start" alt="..." />
           </div>
           <div className="col">
             <div className="text-start card-body p-2">

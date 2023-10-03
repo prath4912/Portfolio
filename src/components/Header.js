@@ -36,7 +36,7 @@ const tog = ()=>{
     sethl(hn) ;
   }else{
     settemp(true) ;
-    sethl("35vh") ;
+    sethl("100vh") ;
   }
 }
 
@@ -60,14 +60,14 @@ useEffect(()=>{
           <a className="a1" href="#projects">Projects</a>
           <a className="a1" href="#skills">Skills</a>
           <a className="a1" href="#hobbies">Hobbies</a>
-          <a className="a1" href="#home">About Me</a>{" "}
+          <a className="a1" href="#home">About Me</a>
         </div>
         </div>
 
       ) : (
-        <div className="dh1 " style={{height : hl}}>
+        <div className="dh1  " style={{height : hl}}>
 
-        <div className="hw1 text-center">
+        <div className="hw1 position-absolute top-0 mt-3 ">
         {!temp ? 
         <svg
             stroke="currentColor"
@@ -90,7 +90,7 @@ useEffect(()=>{
         </svg> 
         }
 
-          {temp ? <div className="container d-flex flex-column justify-content-center">
+          {temp ? <div className="mt-5 container d-flex flex-column gap-2">
             <div className="mt-3"  > <a onClick={tfal}  href="#bg">Home</a></div>
             <div className="my-1"  > <a onClick={tfal} href="#projects">Projects</a></div>
             <div className="my-1" > <a onClick={tfal} href="#skills">Skills</a></div>

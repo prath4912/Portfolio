@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import Project from '../components/project'
 import pj1 from '../images/ORGABIC.png'
-
+import port from "../images/portfolio.jpg"
+import textu from '../images/textu.png'
 export default function Projects() {
 
   const obj =[ {
@@ -17,7 +18,7 @@ export default function Projects() {
 
     Repo_Link : "https://github.com/Prathmesh-Pawar/Portfolio" ,
     Url : "https://textedii.netlify.app/" ,
-    img : pj1
+    img : textu
   },
   // {
   //   title : "BailGada Sharyat" ,
@@ -32,7 +33,7 @@ export default function Projects() {
     descarr : ["FrontEnd Project","Build using MERN Stack ","Bootstrap used" ] ,
     Repo_Link : "https://github.com/Prathmesh-Pawar/Organic_Bananas" ,
     Url : "https://pawarprathmesh.netlify.app/" ,
-    img : pj1
+    img : port
   }] ;
 
   const[projects ,setp] = useState(obj) ;
