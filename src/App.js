@@ -1,36 +1,24 @@
-
-// github deployment
-
- // "homepage": "https://Prathmesh-Pawar.github.io/Portfolio",
-  // "name": "portfolio",
-  
 import './App.css';
-import Piee from './components/Piee';
-
 import "./components/h1.css" ;
 import p1 from './images/p11.jpg';
-
-
-
 import Header from './components/Header';
-import Home from './pages/home' ;
+import About from './pages/About' ;
 import Projects from './pages/Projects';
 import Skills from './pages/Skills';
-import Footer from './components/footer';
-import Hobbies from './pages/hobbies' ;
-import Bg from './components/Bg';
+import Footer from './components/Footer';
+import Hobbies from './pages/Hobbies' ;
+import Home from './pages/Home';
 
 function App() {
   return (
     <div className="App">
         <Header/>
-        <Bg/>
+        <Home/>
         <Projects/>
         <Skills/>
         <Hobbies/>
-        <Home p1 = {p1}/>
-
-        <Footer/>
+        <About p1 = {p1}/>
+        <Footer/> 
     </div>
   );
 }
