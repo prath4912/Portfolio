@@ -7,7 +7,7 @@ import Projects from './pages/Projects';
 import Skills from './pages/Skills';
 import Hobbies from './pages/Hobbies' ;
 import Home from './pages/Home';
-import Footer from "./components/Footer"
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Skills/>
         <Hobbies/>
         <About p1 = {p1}/>
-        <Footer/> 
+        <Footer/>
     </div>
   );
 }
